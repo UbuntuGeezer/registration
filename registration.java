@@ -243,15 +243,15 @@ public MyFrame()
                 tout.setText(data + data1 + data2 + data3); 
                 tout.setEditable(false); 
                 res.setText("Registration Successfully.."); 
-            } 
+            }  // end isselected true
             else { 
                 tout.setText(""); 
                 resadd.setText(""); 
                 res.setText("Please accept the"
                             + " terms & conditions.."); 
             } // end term.isSelected conditional
-        }	// end == sub conditional 
-  
+        }	// end == sub true conditional 
+
         else if (e.getSource() == reset) { 
             String def = ""; 
             tname.setText(def); 
@@ -265,7 +265,7 @@ public MyFrame()
             year.setSelectedIndex(0); 
             resadd.setText(def); 
         }	// end == reset elseif 
-    } 	// end e.getSource conditional
+//    } 	// end e.getSource conditional
 
  
    }	// tentative actionPerformed implementation
