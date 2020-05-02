@@ -54,9 +54,9 @@ class MyFrame
             "26", "27", "28", "29", "30", 
             "31" }; 
     private String months[] 
-        = { "Jan", "feb", "Mar", "Apr", 
+        = { "Jan", "Feb", "Mar", "Apr", 
             "May", "Jun", "July", "Aug", 
-            "Sup", "Oct", "Nov", "Dec" };	// note spelling errors...
+            "Sep", "Oct", "Nov", "Dec" };	// note spelling errors...
     private String years[] 
         = { "1995", "1996", "1997", "1998", 
             "1999", "2000", "2001", "2002", 
